@@ -9,11 +9,12 @@
 # 100 -> 1 (1 + 0 + 0)
 
 # N = int(input("You see the value: "))
-# Result = N % 10 + N % 10 + N % 10
+# Result = N % 10 + N % 100 + N % 1000
 # print(Result)
 
+##############################   Тут уже предположение, что переменная N изменяется во время выполнения мат. операций....
 # N = int(input("You see the value: "))
-# Result = N % 10 + N % 100 + N % 1000
+# Result = N % 10 + N % 10 + N % 10
 # print(Result)
 
 
