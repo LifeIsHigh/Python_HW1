@@ -23,9 +23,9 @@
 ############################################# Работпющая программка, задача № 2....
 
 
-# N = int(input("You see thr value: "))
-# Result = N % 10 + N % 100 // 10 + N // 100
-# print(Result)
+N = int(input("You see thr value: "))
+Result = N % 10 + N % 100 // 10 + N // 100
+print(Result)
 
 
 
@@ -46,13 +46,13 @@
 #     60 -> 10  40  10
 
 
-# S = int(input("Enter the number of birds: "))
-# if not S % 3:
-#      print(f'Катя {(S / 3 ) * 2}')
-#      print(f'Сережа {((S / 3 ) * 2) / 2 / 2} ')
-#      print(f'Петя {((S / 3 ) * 2) / 2 / 2}')
-# else:
-#     print("An incorrect value was entered!")
+S = int(input("Enter the number of birds: "))
+if not S % 3:
+     print(f'Катя {(S / 3 ) * 2}')
+     print(f'Сережа {((S / 3 ) * 2) / 2 / 2} ')
+     print(f'Петя {((S / 3 ) * 2) / 2 / 2}')
+else:
+    print("An incorrect value was entered!")
 
 
 
@@ -69,15 +69,15 @@
 # 123456 -> no
 
 
-# N = int(input("Enter the ticket number: "))
-# Sum2 = round((N % 10 + N % 100 // 10 + N % 1000 // 100), 0)
-# N2 = (-N / 1000) * (-1)
-# Sum1 = int(N2 % 10 + N2 % 100 // 10 + N2 % 1000 // 100)
+N = int(input("Enter the ticket number: "))
+Sum2 = round((N % 10 + N % 100 // 10 + N % 1000 // 100), 0)
+N2 = (-N / 1000) * (-1)
+Sum1 = int(N2 % 10 + N2 % 100 // 10 + N2 % 1000 // 100)
 
-# if Sum1 == Sum2:
-#     print("Yes")
-# else:
-#     print("No")
+if Sum1 == Sum2:
+    print("Yes")
+else:
+    print("No")
  
 
 
